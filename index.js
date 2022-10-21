@@ -144,7 +144,7 @@ map.on('load', () => {
 
     map.addSource('my_building', {
         'type': 'geojson',
-        'data': '../data/futian_buildings_1.json'
+        'data': './futian_buildings.json'
     })
     map.addLayer({
         'id': 'buildinglayer',
